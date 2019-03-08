@@ -1,0 +1,57 @@
+form{
+	width : auto;
+}
+
+fieldset {
+ 	padding: 10px;
+ 	border: 1px #00ff00solid;
+}
+
+legend {
+ font-weight: bold;
+ color: #0568CD;
+}
+
+form label {
+ float: left;
+ width: 250px;
+ margin: 3px 0px 0px 0px;
+}
+
+form input {
+ margin: 3px 3px 0px 0px;
+ border: 1px #999 solid;
+}
+
+form input.sansLabel {
+ margin-left: 200px;
+}
+
+span {
+ color: #0000ff;
+}
+
+form .erreur {
+   color: red;
+}
+
+form .succes {
+    color: #090;
+}
+
+#tbl_user td{
+	border: 1px solid #0568CD;
+	padding: 5px;
+	text-align: center;
+}
+
+#tbl_user td.id{
+	background-color: grey;
+}
+
+#tbl_user th{
+	border: 1px solid #0568CD;
+	background-color: #0568CD;
+	color: white;
+	padding: 5px;
+}
